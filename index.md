@@ -1,5 +1,5 @@
 <script>
-let url = 'https://api.sheety.co/d453d8dc73dbbd69a3e9fcfa5a115e10/ssDeviantsGroupGames/sheet1';
+let url = 'https://api.sheety.co/d453d8dc73dbbd69a3e9fcfa5a115e10/copyOfSsDeviantsGroupGames/sheet1';
 fetch(url)
 .then((response) => response.json())
 .then(json => {
