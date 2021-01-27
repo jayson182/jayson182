@@ -1,8 +1,9 @@
-function init() {
-Tabletop.init( { key: ‘https://docs.google.com/spreadsheets/d/0AmYzu_s7QHsmdDNZUzRlYldnWTZCLXdrMXlYQzVxSFE/pubhtml',
-callback: function(data, tabletop) {
-console.log(data)
-},
-simpleSheet: true } )
-}
-window.addEventListener(‘DOMContentLoaded’, init)
+<script>
+let url = 'https://api.sheety.co/d453d8dc73dbbd69a3e9fcfa5a115e10/ssDeviantsGroupGames/sheet1';
+fetch(url)
+.then((response) => response.json())
+.then(json => {
+  // Do something with the data
+  console.log(json.sheet1S);
+});
+  </script>
